@@ -14,6 +14,8 @@ Combine the advanced typesetting features and document management features of La
 
 This style requires the [XeTeX](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=xetex) engine on Mac OS X, and will not work with pdfTeX or any other variant.
 
+![Example of sans-serif fonts in LaTeX](https://github.com/manastungare/latex/raw/master/typography/opentype-sansserif.png)
+
 ### Sans Serif Titles
 
 Best used in combination with the OpenType fonts style.
@@ -37,3 +39,5 @@ But sometimes you really do want to override them, save paper, be nice to the en
 ### Less Paper
 
 If you want to be even more radical in saving paper and scoring extra points with the environment, this is your style. It squeezes your content as far as possible towards the margin, sacrificing readability in the process. But it does get the job done in fewer sheets of paper.
+
+![Example of tight margins in LaTeX](https://github.com/manastungare/latex/raw/master/eco/margin-sample.png)
