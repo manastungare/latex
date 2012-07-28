@@ -1,0 +1,15 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{opentypefonts}[2008/03/05 Uses OpenType fonts instead of LaTeX defaults. Needs XeTeX.]
+
+% Report bugs to Manas Tungare, <manas@tungare.name>
+% I specifically disclaim all copyright and dedicate this to the public domain.
+
+\RequirePackage[cm-default]{fontspec}
+\RequirePackage{xunicode}
+\RequirePackage{xltxtra}
+
+\defaultfontfeatures{Scale=MatchLowercase}
+
+\setsansfont[Mapping=tex-text,Scale=1.1]{Gill Sans}
+\setmainfont[Mapping=tex-text,Scale=1.0]{Hoefler Text}
+\setmonofont{Monaco}
